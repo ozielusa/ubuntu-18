@@ -36,5 +36,4 @@ echo -e "Atribuindo permissao ao arquivo de inicializacao, aguarde..."
 	cd /etc/init.d
 	update-rc.d noip.sh defaults
 	echo -e "Tudo concluido! Obrigado."
-	read
 	exit 1
