@@ -24,10 +24,16 @@ echo -e "Acessando o diretorio do arquido de Inicializacao Automatica, aguarde..
 cd /etc/init.d
 echo -e "Abrindo o arquido de Inicializacao para edicao,"
 echo -e "Edite o arquivo colando o script para inicializar o no-ip junto com o sistema"
+	read
+	sleep 3
 	nano noip.sh
+echo -e "Arquivo atualizado com sucesso!!!, continuando com a Configuracao..."
+	sleep 4
 echo -e "Atribuindo permissao ao arquivo de inicializacao, aguarde..."	
 	chmod +x /etc/init.d/noip.sh
 	chmod 0755 /etc/init.d/noip.sh
 	cd /etc/init.d
 	update-rc.d noip.sh defaults
 	echo -e "Tudo concluido! Obrigado."
+	read
+	exit 1
