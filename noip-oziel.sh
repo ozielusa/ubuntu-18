@@ -1,38 +1,15 @@
 #!/bin/bash
 # Autor: Robson Vaamonde
-# Site: www.procedimentosemti.com.br
-# Facebook: facebook.com/ProcedimentosEmTI
-# Facebook: facebook.com/BoraParaPratica
-# YouTube: youtube.com/BoraParaPratica
 # Data de criação: 04/11/2018
 # Data de atualização: 10/02/2019
 # Versão: 0.06
 # Testado e homologado para a versão do Ubuntu Server 18.04.x LTS x64
 # Kernel >= 4.15.x
 #
-# APACHE-2.4 (Apache HTTP Server) -Servidor de Hospedagem de Páginas Web: https://www.apache.org/
-# MYSQL-5.7 (SGBD) - Sistemas de Gerenciamento de Banco de Dados: https://www.mysql.com/
-# PHP-7.2 (Personal Home Page - PHP: Hypertext Preprocessor) - Linguagem de Programação Dinâmica para Web: http://www.php.net/
-# PERL-5.26 - Linguagem de programação multiplataforma: https://www.perl.org/
-# PYTHON-2.7 - Linguagem de programação de alto nível: https://www.python.org/
-# PHPMYADMIN-4.6 - Aplicativo desenvolvido em PHP para administração do MySQL pela Internet: https://www.phpmyadmin.net/
-#
 # Debconf - Sistema de configuração de pacotes Debian
 # Site: http://manpages.ubuntu.com/manpages/bionic/man7/debconf.7.html
 # Debconf-Set-Selections - insere novos valores no banco de dados debconf
 # Site: http://manpages.ubuntu.com/manpages/bionic/man1/debconf-set-selections.1.html
-#
-# Opção: lamp-server^ Recurso existente no GNU/Ubuntu Server para facilitar a instalação do Servidor LAMP
-# A opção de circunflexo no final do comando e obrigatório, considerado um meta-caracter de filtragem para
-# a instalação correta de todos os serviços do LAMP.
-# Recurso faz parte do software Tasksel: https://help.ubuntu.com/community/Tasksel
-#
-# O módulo do PHP Mcrypt na versão 7.2 está descontinuado, para fazer sua instalação e recomendado utilizar
-# o comando o Pecl e adicionar o repositório pecl.php.net, a instalação e baseada em compilação do módulo.
-#
-# Observação: Nesse script está sendo feito a instalação do Oracle MySQL, hoje os desenvolvedores estão migrando
-# para o MariaDB, nesse script o mesmo deve ser reconfigurado para instalar e configurar o MariaDB no Ubuntu.
-# sudo apt update && sudo apt install mariadb-server mariadb-client mariadb-common
 #
 # Vídeo de instalação do GNU/Linux Ubuntu Server 18.04.x LTS: https://www.youtube.com/watch?v=zDdCrqNhIXI
 #
