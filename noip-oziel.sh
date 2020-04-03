@@ -20,6 +20,7 @@ echo -e "Reinicializando os serviços do NoIP, aguarde..."
 echo -e "Serviço reinicializado com sucesso!!!"
 echo -e "Checando o resolvimento do DDNS..."
 	nslookup $DOMINIO
+	sleep 4
 echo -e "Acessando o diretorio do arquido de Inicializacao Automatica, aguarde..."
 cd /etc/init.d
 echo -e "Abrindo o arquido de Inicializacao para edicao,"
